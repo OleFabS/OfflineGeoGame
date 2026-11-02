@@ -46,7 +46,7 @@ Add libraries when their task starts and pin verified versions in `gradle/libs.v
 
 ## Code structure
 
-Keep one app module under the existing `com.example.offlinegeogame` package. Add files as needed, not empty scaffolding.
+Keep one app module under the existing `com.example.offlinegeogame` package. The package and assets folders are prepared with `.gitkeep` files. Add source files as each feature is implemented.
 
 ```text
 MainActivity.kt    App entry and dependency wiring
